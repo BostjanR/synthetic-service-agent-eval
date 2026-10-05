@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-05",
+  "unit_tests_passed": 14,
+  "offline_conversations_replayed": 128,
+  "tool_calls_replayed": 971,
+  "derived_request_histories_checked": 128,
+  "scores": {
+    "qwen27": 32,
+    "qwenflash": 29,
+    "kolibri": 24,
+    "mistral4": 21
+  },
+  "evidence_sanitization": "JSON equality after private endpoint substitution only; responses/tool data/fixtures/grades/timings unchanged",
+  "source_hash_mapping": "all original-to-published ledger hashes checked",
+  "privacy_scan": "no private LAN endpoint, local operator path, GPU UUID or common credential-token pattern found",
+  "archive_roundtrip": "ZIP CRC and extracted offline replay passed",
+  "generic_report_check": "review-pending fresh report does not inherit frozen conclusions",
+  "archive_bytes": 951496
+}

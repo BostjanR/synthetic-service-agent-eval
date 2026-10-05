@@ -1,0 +1,7 @@
+# Critical review — 5 October 2026
+
+The experiment was conducted by GPT-6.1 Sol under BostjanR’s direction. GPT-6 Astra at High independently reviewed the preserved evidence before publication. It reproduced 128 stored pass/fail decisions, checked 971 tool calls and all 128 derived chronological histories. These are checks of this evaluation, not certification of a model or production system.
+
+Publication corrections: the banking field dispute_reason is present in the transaction record, so it was not invented. The scripted customer requires the policy’s reason field and both fields together. Mistral’s observed $0.013094334 cost includes 92.1% cached input tokens; it is not a cold-run estimate. Chronological requests are reconstructed, not wire-captured. Two passing closures share a response with action submission, so receipt-grounded closure is not established. The 32k check is retrospective; observed prompts are short. Exact weight/tokenizer revisions are incomplete for some profiles. Scores were retained rather than revised using excluded diagnostic runs.
+
+The reviewed report separates action correctness, tool-protocol failures and natural-language errors. Eight paired scenario families, two seeds and differing deployments do not establish a general model ranking. Follow-up experiments should change the simulator or enable reasoning consistently across models, with new results kept separate from this frozen run.
